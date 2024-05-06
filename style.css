@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    text-decoration: none;
+}
+
+header {
+    /* position: fixed; */
+    width: 100%;
+    top: 10;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+    padding-left: 50px;
+}
+
+.navmenu {
+    display: flex;
+}
+
+.navmenu a {
+    color: #2c2c2c;
+    font-family: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+.navmenu a::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: yellow;
+    transition: all .5s;
+}
+
+.navmenu a:hover::before {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.main-header {
+    background-color: yellowgreen;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(227, 190, 2);
+    border-style: none;
+}
+/* .btn :hover{
+    cursor: pointer;
+} */
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.heading2 {
+    color: yellowgreen;
+    padding-left: 20px;
+}
+
+.images {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    justify-content: space-between;
+}
+
+.images-sec-two-container {
+    width: 200px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.background-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.images-sec-two {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    
+}
+.header2{
+    background-color: #DCDCDC;
+    padding-top: 50px;
+    height: 650px;
+    /* position: relative; */
+    
+}
+.button{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(227, 190, 2);
+    border-style: none;
+    position: absolute;
+    left: 70px;
+    font-size: 19px;
+    font-weight: bold;
+}  
+.badge{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    /* position: fixed; */
+}
+.sub-badge{
+    display: flex;
+    background-color: #DCDCDC;
+    justify-content: space-around;
+    /* position: absolute; */
+    
+ } 
+.flex-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.flex-box{
+    width: 300px;
+    height: auto;
+    background-color: #DCDCDC;
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 200px; */
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 10px;
+    /* position: absolute; */
+}
+.header-protfolio{
+    background-color: #2c2c2c;
+    padding-top: 20px;
+    color: #fff;
+    height: 600px;
+}
+.flex-container2{
+    width: 100%;
+     /* height: 600px; */
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    background-color: #2c2c2c;
+    /* margin: auto; */
+
+}
+.flex-box2{
+    width: 300px;
+    height: 200px;
+    /* background-color: #DCDCDC; */
+    font-size: 20px;
+    text-align: center;
+    /* line-height: 200px; */
+    border-radius: 20px;
+    padding-top: 50px;
+    /* margin: 10px; */
+    /* position: absolute; */
+    border: 10px;
+}
+.navmenu2{
+    display: flex;
+}
+.navmenu2 a{
+    color:#fff;
+    font-family: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .box {
+    width: 20%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
